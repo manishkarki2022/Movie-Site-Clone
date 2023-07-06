@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+
+}
+body{
+    background-color: #EAEAEA;
+}
+.navbar{
+    background-color: white;
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.main-logo{
+    height: 40.55px;
+    background-image: url(main-logo.png);
+    background-size:contain;
+    width: 187;
+    background-repeat: no-repeat;
+    margin-left:10px;
+}
+.menu-type{
+    display: flex;
+   
+}
+.menu-type p{
+    display: flex;
+    margin-left: 18px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 1rem;
+    align-items: center;
+   
+    
+}
+.menu-type p:hover{
+    color:#79c142;
+
+}
+.search-type{
+    display: flex;
+    border:1px solid #dee2e6;
+    position: relative;
+    height:43px;
+    justify-content: center;
+    align-items: center;
+    border-radius: 3px;
+    width: 230;
+    left:35%
+    
+   
+   
+    
+
+ 
+   
+}
+.search-logo{
+   width: 36;
+   margin-left:15px ;
+   margin-right: 25px;
+   
+   
+}
+.search{
+    border: none;
+    text-decoration: none;
+    height:40px;
+    width: 175px;
+}
+.home{
+   border-bottom: 2px solid #79c142;
+   color: #79c142;
+
+}
+.box1{
+    background-image: url(fast.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 325px;
+    width: 95%;
+    margin-left: 3%;
+    margin-right: 5%; 
+}
+.box2{
+    height: 40px;
+    background-color: white;
+    margin-left: 3%;
+    display: flex;
+    align-items: center;
+}
+.box2 p{
+    margin-left: 1%;
+   
+    font-weight: 16px;
+}
+.box3{
+    height:56px;
+    background-color: #475577;
+    color: white;
+    display: flex;
+   margin-left: 3%;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2px;
+    margin-top: 1%;
+}
+.box3 p{
+  
+    margin-left: 2%;
+   font-size: 1rem;
+   line-height: 1.6rem;
+}
+.box4{
+    height: 40px;
+    background-color: #79c142;
+    color: white;
+    width: 9%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 3%;
+    border-radius: 2px;
+    margin-top: 0.9%;
+}
+.box4 p{
+  
+   
+   font-size: 1.1rem;
+   line-height: 1.6rem;
+}
+.movie-box{
+    margin-top: 1%;
+    display: flex;
+    flex-wrap: wrap;
+    
+    justify-content: center;
+}
+.movie{
+    border: 0.5px solid black;
+    height: 256px;
+    width: 170px;
+    margin-left: 3%;
+    margin-right: 0.5%;
+    display: flex;
+    margin-bottom: 20px;
+    justify-content: space-between;
+    
+}
+.movie p{
+    height: 22px;
+    width: 37px;
+    background-color: #FFC107;
+    display: flex;
+    border-radius: 3px;
+    font-size: 11;
+    position: relative;
+    left: 78%;
+    margin-top: 0.9%;
+    align-items: center;
+    justify-content: center
+    
+}
+.movie h3{
+    color: #EAEAEA;
+    display: flex;
+    align-items:last baseline;
+}
+.footer{
+    height: 328px;
+    background-color: #1E1E1E;
+    color: white;
+   
+    
+}
+.footer-contain{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 4%;
+    margin-right: 5%;
+    
+    
+}
+.foot1 {
+    display: block;
+    margin-top: 1%;
+}
+.foot2{
+    display: block;
+    margin-top: 1%; 
+}
+.foot3{
+    display: block;
+    margin-top: 1%;
+}
+.foot4{
+    display: block;
+    margin-top: 1%;
+}
+.foot1 ul{
+    margin-bottom: 10%;
+}
+.foot2 ul{
+    margin-bottom: 10%;
+}
+.foot3 ul{
+    margin-bottom: 5%;
+}
+.foot4 ul{
+    margin-bottom: 5%;
+}
+
+.last-logo{
+    background-image: url(main-logo.png);
+    height: 52;
+    background-position: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.sub-input input{
+    height: 37;
+    width: 250;
+
+   
+     
+}  
+.sub-input button{
+    height:37;
+    width: 92;
+    background-color: #79c142;
+    color: white;
+    border: none !important;
+} 
+.last-footer{
+    height: 56;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 2.5%;
+    font-weight: 0.8rem
+}
+ul p{
+    word-spacing: 3px;
+}   
